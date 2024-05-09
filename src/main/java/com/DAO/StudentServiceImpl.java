@@ -1,5 +1,5 @@
-package com.panchalprogrammingacademy.service;
-import com.panchalprogrammingacademy.model.Student;
+package com.DAO;
+import com.model.Student;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

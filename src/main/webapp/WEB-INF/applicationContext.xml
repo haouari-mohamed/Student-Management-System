@@ -4,10 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- Define the StudentServiceImpl bean -->
-    <bean id="studentService" class="com.panchalprogrammingacademy.service.StudentServiceImpl" />
+    <bean id="studentService" class="com.DAO.StudentServiceImpl" />
 
-    <!-- Define the StudentController bean -->
-    <bean id="studentController" class="com.panchalprogrammingacademy.controller.StudentController">
+    <!-- Define the Etudiant bean -->
+    <bean id="studentController" class="com.Beans.Etudiant">
         <property name="studentService" ref="studentService" />
     </bean>
 

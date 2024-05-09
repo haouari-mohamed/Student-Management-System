@@ -1,6 +1,6 @@
-package com.panchalprogrammingacademy.service;
+package com.DAO;
 
-import com.panchalprogrammingacademy.model.Student;
+import com.model.Student;
 
 import java.util.List;
 

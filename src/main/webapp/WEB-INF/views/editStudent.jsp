@@ -1,4 +1,4 @@
-<jsp:useBean id="student" scope="request" type="com.panchalprogrammingacademy.model.Student"/>
+<jsp:useBean id="student" scope="request" type="com.model.Student"/>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
