@@ -18,7 +18,7 @@ public class EtudiantDAOImpl implements EtudiantDAO{
     @Override
     public ArrayList<Etudiant> AfficherEtudiants() {
         System.out.println(etudiants);
-        return etudiants;
+      return etudiants;
     }
 
     @Override
@@ -29,12 +29,12 @@ public class EtudiantDAOImpl implements EtudiantDAO{
 
     @Override
     public Etudiant RecupererEtudiantByMatricule(String matricule ) {
-        for (Etudiant etudiant:etudiants){
-            if (etudiant.getMatricule().equals(matricule)){
-                return etudiant;
-            }
-        }
-        return null;
+       for (Etudiant etudiant:etudiants){
+           if (etudiant.getMatricule().equals(matricule)){
+               return etudiant;
+           }
+       }
+       return null;
     }
 
     @Override

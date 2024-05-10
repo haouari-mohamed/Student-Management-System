@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @Controller
-class EtudiantController {
+ class EtudiantController {
 
     @Autowired
     private EtudiantDAO etudiantDAO;
@@ -54,7 +54,7 @@ class EtudiantController {
 
     @RequestMapping(value = "/modifyEtudiant/{matricule}")
     public String ModifyEtudiant(@PathVariable("matricule") String matricule,Model model) {
-        model.addAttribute("etudiant",etudiantDAO.RecupererEtudiantByMatricule(matricule));
+      model.addAttribute("etudiant",etudiantDAO.RecupererEtudiantByMatricule(matricule));
 
         return "FormeModify";
 
